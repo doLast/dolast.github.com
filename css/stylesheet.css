@@ -129,6 +129,13 @@ Full-Width Styles
 Responsive Styles
 *******************************************************************************/
 
+/* Negtive carousel margin to fill the width on small screen */
+@media (max-width: 767px) {
+  .carousel {
+    margin: 0px -20px;
+  }
+}
+
 /* Fixed navbar-fixed-top on scroll, but only for 980px and up (sorry IE!) */
 @media (min-width: 980px) {
   body {
