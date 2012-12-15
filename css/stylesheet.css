@@ -85,7 +85,7 @@ Full-Width Styles
 /* Tweak Carousel
 -------------------------------------------------- */
 .carousel {
-  margin-bottom: 60px;
+  /* margin-bottom: 60px; */
 }
 
 .carousel .container {
@@ -122,6 +122,12 @@ Full-Width Styles
 }
 .carousel-caption .btn {
   margin-top: 10px;
+}
+
+/* Tweak project sections
+-------------------------------------------------- */
+.container section {
+  padding-top: 50px;
 }
 
 /*******************************************************************************
