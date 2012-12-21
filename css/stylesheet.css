@@ -111,7 +111,7 @@ Full-Width Styles
   background-color: transparent;
   max-width: 550px;
   padding: 0;
-  margin: 15% 48px 10% 48px;
+  margin: auto 48px 15% 48px;
 }
 .carousel-caption h1,
 .carousel-caption .lead {
