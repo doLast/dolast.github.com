@@ -14,22 +14,19 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
-.container {
-  background-color: rgba(255,255,255,0.5);
-}
-
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
 
 /* Tweak sidebar
 -------------------------------------------------- */
-
 .sidebar {
   padding: 100px 20px 100px 0;
   text-align: right;
   border-right: 1px dashed #ddd;
   font-weight: bold;
+  position: fixed;
+  width: 199px;
 }
 
 .sidebar .brand {
@@ -70,11 +67,29 @@ Full-Width Styles
 
 /* Tweak content
 -------------------------------------------------- */
-
 .content {
   padding: 20px;
 }
 
+article {
+  background: white;
+  -webkit-border-radius: 3px;
+  margin: 0 0 1.625em;
+  padding: 1.625em;
+  box-shadow:0 0 10px rgba(200,200,200,0.8);
+}
+
+article header {
+  border-bottom: 1px dashed #ddd;
+  margin-bottom: 5px;
+}
+
+article section {
+ margin-bottom: 5px;
+}
+
+/* Tweak footer
+-------------------------------------------------- */
 .footer {
   border-top: 1px dashed #ddd;
   padding: 10px;
