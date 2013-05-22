@@ -6,109 +6,40 @@
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="doLast : Simplify your life" />
-    
+
     <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/bootstrap-responsive.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap-responsive.css"> -->
     <link rel="stylesheet" type="text/css" media="screen" href="css/stylesheet.css">
 
     <title>doLast.com</title>
   </head>
 
   <body>
-    <!-- NAVBAR -->
-    <div class="navbar navbar-fixed-top">
-      <div class="navbar-inner">
-        <div class="container">
-          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </a>
-          
-          <a class="brand" href="#">doLast</a>
-          <div class="nav-collapse">
-            <ul class="nav">
-              <li class="active"><a href="/">Home</a></li>
-              <li class="divider-vertical"></li>
-              <li><a href="#dogrt" title="doGRT">doGRT</a></li>
-              <li><a href="#campusnav" title="CampusNav">CampusNav</a></li>
-              <li><a href="#moe-fm" title="Moe FM">Moe FM</a></li>
-              <li><a href="#about" title="About Us">About Us</a></li>
-            </ul>
-          </div><!--/.nav-collapse -->
-        </div>
-      </div>
-    </div>
-    
-    <!-- Carousel ================================================== -->
-    <div id="carousel" class="carousel slide">
-      <div class="carousel-inner">
-        <div class="item active" style="background-image: url('http://twitter.github.com/bootstrap/assets/img/examples/slide-01.jpg')">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>doGRT</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large" href="#dogrt">Check it out</a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="background-image: url('http://twitter.github.com/bootstrap/assets/img/examples/slide-02.jpg')">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>CampusNav</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large" href="#campusnav">Learn more</a>
-            </div>
-          </div>
-        </div>
-        <div class="item" style="background-image: url('http://twitter.github.com/bootstrap/assets/img/examples/slide-03.jpg')">
-          <div class="container">
-            <div class="carousel-caption">
-              <h1>Who are we</h1>
-              <p class="lead">Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-              <a class="btn btn-large" href="#about">More about us</a>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a class="left carousel-control" href="#carousel" data-slide="prev">‹</a>
-      <a class="right carousel-control" href="#carousel" data-slide="next">›</a>
-    </div>
-    
-    <!-- Wrap the rest of the page in another container to center all the content. -->
-    
     <div class="container">
-      <hr />
-      
-      <!-- FOOTER -->
-      <footer>
-        <p class="pull-right"><a href="#">Back to top</a></p>
-        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
-        <p>&copy; 2012 doLast.com</p>
-      </footer>
-    
-    </div><!-- /.container -->
-    
-    <script src="http://code.jquery.com/jquery-latest.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript">
-      $(document).ready(function () {
-        $('.carousel').carousel({
-          interval: 8000
-        });
-        $('.carousel').carousel('cycle');
-      });
-    </script>
-    <script type="text/javascript">
-      var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-      document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-      </script>
-      <script type="text/javascript">
-      try {
-        var pageTracker = _gat._getTracker("UA-28799255-1");
-      pageTracker._trackPageview();
-      } catch(err) {}
-    </script>
-
+      <div class="row">
+        <div class="span3">
+          <div class="sidebar">
+            <h1 class="brand"><a href="/">doLast</a></h1>
+            <ul class="navs">
+              <li><a href="dogrt.html">doGRT</a></li>
+              <li><a href="moe-fm.html">Moe FM</a></li>
+              <li><a href="campus-nav.html">Campus Nav</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="span9">
+          <div class="content">
+            <h1>doLast.com</h1>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span12">
+          <div class="footer">
+            <p>doLast.com</p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

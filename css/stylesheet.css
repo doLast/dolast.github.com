@@ -3,68 +3,38 @@ doLast Theme for GitHub Pages
 by Greg Wang, @gregwym
 *******************************************************************************/
 
-@import url(pygment_trac.css);
-
 /*******************************************************************************
 Theme Styles
 *******************************************************************************/
 
 body {
   color:#373737;
-  background: url('../img/bg_texture.jpeg');
+  background: url('../img/bg_formula.png');
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin: 10px 0;
-  font-weight: 700;
-  color:#222222;
-  font-family: 'Lucida Grande', 'Calibri', Helvetica, Arial, sans-serif;
-  letter-spacing: -1px;
-}
-
-h1 {
-  font-size: 36px;
-  font-weight: 700;
-}
-
-h2 {
-  padding-bottom: 10px;
-  font-size: 32px;
-  background: url('../img/bg_hr.png') repeat-x bottom;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-h4 {
-  font-size: 21px;
-}
-
-h5 {
-  font-size: 18px;
-}
-
-h6 {
-  font-size: 16px;
-}
-
-p {
-  margin: 10px 0 15px 0;
+.container {
+  background-color: rgba(255,255,255,0.5);
 }
 
 /*******************************************************************************
 Full-Width Styles
 *******************************************************************************/
 
-/* Tweak navbar
+/* Tweak sidebar
 -------------------------------------------------- */
-.navbar .brand {
-  padding: 5px 0px;
+
+.sidebar {
+  padding: 100px 20px 100px 0;
+  text-align: right;
+  border-right: 1px dashed #ddd;
+  font-weight: bold;
+}
+
+.sidebar .brand {
+  padding: 10px 0px;
   margin:auto;
-  float: right;
   font-weight: bold;
   color: #999;
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
@@ -73,104 +43,41 @@ Full-Width Styles
   transition: all .2s linear;
 }
 
-.navbar .brand:hover {
+.sidebar a {
   text-decoration: none;
+  color: inherit;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.sidebar .brand:hover {
   color: #333;
 }
 
-.navbar .container {
-  width: auto;
+.sidebar .navs {
+  list-style: none;
 }
 
-/* Tweak Carousel
+.sidebar .navs li {
+  line-height: 28px;
+}
+
+.sidebar .navs .active {
+  background: #ddd;
+}
+
+/* Tweak content
 -------------------------------------------------- */
-.carousel {
-  /* margin-bottom: 60px; */
+
+.content {
+  padding: 20px;
 }
 
-.carousel .container {
-  position: relative;
-  min-height: 380px;
-}
-
-.carousel-control {
-  height: 40px;
-  margin-top: 0;
-  font-size: 120px;
-  text-shadow: 0 1px 1px rgba(0,0,0,.4);
-  background-color: transparent;
-  border: 0;
-  z-index: 100;
-}
-
-.carousel .item {
-  background-size: cover;
-}
-
-.carousel-caption {
-  background-color: transparent;
-  max-width: 550px;
-  padding: 0;
-  margin: auto 48px 15% 48px;
-}
-.carousel-caption h1,
-.carousel-caption .lead {
-  margin: 0;
-  line-height: 1.25;
-  color: #fff;
-  text-shadow: 0 1px 1px rgba(0,0,0,.4);
-}
-.carousel-caption .btn {
-  margin-top: 10px;
-}
-
-/* Tweak project sections
--------------------------------------------------- */
-.container section {
-  padding-top: 50px;
-}
-
-/*******************************************************************************
-Responsive Styles
-*******************************************************************************/
-
-/* Negtive carousel margin to fill the width on small screen */
-@media (max-width: 767px) {
-  .carousel {
-    margin: 0px -20px;
-  }
-}
-
-/* Fixed navbar-fixed-top on scroll, but only for 980px and up (sorry IE!) */
-@media (min-width: 980px) {
-  body {
-    padding-top: 40px;
-  }
-  .navbar-fixed-top .container {
-    width: 940px;
-  }
-}
-
-@media (max-width: 979px) {
-  .navbar {
-    margin-bottom: 0px;
-  }
-  /* Unfloat brand */
-  .navbar .brand {
-    float: left;
-    margin-left: 0;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-}
-
-/* LARGE DESKTOP SCREENS */
-@media (min-width: 1210px) {
-
-  /* Update navbar-fixed-top container */
-  .navbar-fixed-top .container {
-    width: 1170px; 
-  }
-
+.footer {
+  border-top: 1px dashed #ddd;
+  padding: 10px;
+  text-align: center;
+  color: #999;
 }
