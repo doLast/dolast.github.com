@@ -1,7 +1,7 @@
 {
-    "releaseName": "2014 Summer",
-    "releaseDate": "20140621",
-    "startDate": "20140623",
-    "endDate": "20140831",
-    "url": "http://bitbucket.org/gregwym/grt-gtfs/downloads/GRT_GTFS_20140621.sqlite"
+    "releaseName": "2014 Fall",
+    "releaseDate": "20140831",
+    "startDate": "20140901",
+    "endDate": "20141221",
+    "url": "http://bitbucket.org/gregwym/grt-gtfs/downloads/GRT_GTFS_20140831.sqlite"
 }
