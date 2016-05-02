@@ -1,7 +1,7 @@
 {
-    "releaseName": "2015 Fall",
-    "releaseDate": "20150907",
-    "startDate": "20150907",
-    "endDate": "20151220",
-    "url": "http://bitbucket.org/gregwym/grt-gtfs/downloads/GRT_GTFS_20150907.sqlite"
+    "releaseName": "2016 Spring",
+    "releaseDate": "20160425",
+    "startDate": "20160425",
+    "endDate": "20160626",
+    "url": "http://bitbucket.org/gregwym/grt-gtfs/downloads/GRT_GTFS_20160425.sqlite"
 }
