@@ -1,5 +1,6 @@
 {
   "id": "grt",
+  "version": 1,
   "name": "Grand River Transit",
   "onestop_id": "o-dpwz-grandrivertransit",
   "gtfs_zip_url": "http://www.regionofwaterloo.ca/opendatadownloads/GRT_GTFS.zip",
