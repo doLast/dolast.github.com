@@ -1,7 +1,7 @@
 {
-    "releaseName": "2018 Winter",
-    "releaseDate": "20171224",
-    "startDate": "20171223",
-    "endDate": "20180429",
-    "url": "https://bitbucket.org/gregwym/grt-gtfs/downloads/GRT_GTFS_20171224.sqlite"
+    "releaseName": "2018 Spring",
+    "releaseDate": "20180429",
+    "startDate": "20180427",
+    "endDate": "20180624",
+    "url": "https://bitbucket.org/gregwym/grt-gtfs/downloads/GRT_GTFS_20180429.sqlite"
 }
